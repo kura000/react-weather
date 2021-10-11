@@ -16,7 +16,7 @@ function App() {
     <div className="App min-h-screen">
       <div className="inner w-full m-auto">
         <div className="w-full">
-          <BrowserRouter basename="/weather" >
+          <BrowserRouter basename={process.env.PUBLIC_URL} >
             <Switch>
               <Route exact path="/">
                 <div className="max-w-screen-lg mx-auto py-24">

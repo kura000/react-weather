@@ -47,5 +47,5 @@
     "sass": "^1.40.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
   },
-  "homepage": "https://my-memos.info/weather"
+  "homepage": "https://kura000.github.io/react-weather"
 }
